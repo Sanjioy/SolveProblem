@@ -147,7 +147,7 @@
             android:id="@+id/editTextText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"
+            android:inputType="number"
             android:textSize="25sp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"

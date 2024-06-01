@@ -101,6 +101,9 @@ class MainActivity : AppCompatActivity() {
         userResponse.isEnabled = true
         userResponse.setBackgroundColor(Color.TRANSPARENT)
 
+        // Перемещаем фокус на EditText для ввода ответа
+        userResponse.requestFocus()
+
         // Генерируем новое выражение
         generateNewExpression()
     }
